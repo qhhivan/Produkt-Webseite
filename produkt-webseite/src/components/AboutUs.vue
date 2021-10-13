@@ -1,10 +1,11 @@
 <template>
   <v-container>
     <!-- Nicht Container-Fluid genommen damit bissi abstand auf den Seiten ist -->
+
     <v-row class="my-3">
       <!-- Eine row hat 12 col -->
       <v-col cols="7">
-        <h2>Über unser Team</h2>
+        <h1>Über unser Team</h1>
 
         <p class="my-auto">
           Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam

@@ -5,6 +5,8 @@
 
     <!-- Main -->
     <v-main>
+      <AboutProject />
+      <Timeline />
       <AboutUs />
     </v-main>
   </v-app>
@@ -14,6 +16,8 @@
 // Import Components
 import Navbar from '@/components/Navbar.vue';
 import AboutUs from '@/components/AboutUs.vue';
+import AboutProject from '@/components/AboutProject.vue';
+import Timeline from '@/components/Timeline.vue';
 
 export default {
   name: 'App',
@@ -25,6 +29,8 @@ export default {
   components: {
     Navbar,
     AboutUs,
+    AboutProject,
+    Timeline,
   },
 };
 </script>
