@@ -10,16 +10,13 @@
     </v-app-bar-title>
 
     <v-tabs v-model="tabs" align-with-title color="red">
-      <v-tab href="#home">
-        Home
-      </v-tab>
-      <v-tab href="#ueber-projekt">
+      <v-tab :href="links[0]">
         Über das Projekt
       </v-tab>
-      <v-tab href="#next-steps">
+      <v-tab :href="links[1]">
         Next Steps
       </v-tab>
-      <v-tab href="#ueber-team">
+      <v-tab :href="links[2]">
         Team
       </v-tab>
       <v-tabs-slider color="red"></v-tabs-slider>
@@ -33,6 +30,12 @@ export default {
     return {
       tabs: null,
     };
+  },
+
+  props: {
+    links: {
+      type: Array,
+    },
   },
 };
 </script>

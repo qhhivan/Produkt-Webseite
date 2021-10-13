@@ -1,13 +1,13 @@
 <template>
   <v-app>
     <!-- Menu -->
-    <Navbar />
+    <Navbar :links="links" />
 
     <!-- Main -->
     <v-main>
-      <AboutProject />
-      <Timeline />
-      <AboutUs />
+      <AboutProject id="aboutProject" />
+      <Timeline id="timeline" />
+      <AboutUs id="aboutUs" />
     </v-main>
 
     <Footer />
@@ -26,7 +26,8 @@ export default {
   name: 'App',
 
   data: () => ({
-    //
+    //Links
+    links: ['#aboutProject', '#timeline', '#aboutUs'],
   }),
 
   components: {

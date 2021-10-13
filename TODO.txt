@@ -1,0 +1,7 @@
+1. Bilder Machen/ Heraussuchen
+
+2. Texte schreiben 
+
+3. Verlinkungen funktionsfähig machen (Header & Footer)
+
+4. Überschriften/ Design so machen das man Unterscheiden kann was wo dazu gehört
