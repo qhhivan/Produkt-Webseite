@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app color="primary" height="200">
+  <v-app-bar app color="black" height="200">
     <v-app-bar-title>
       <v-img
         src="../assets/a-team-test-logo.jpg"
@@ -9,7 +9,21 @@
       ></v-img>
     </v-app-bar-title>
 
-    <v-breadcrumbs :items="items" divider="/"></v-breadcrumbs>
+    <v-tabs v-model="tabs" align-with-title>
+      <v-tab href="#home">
+        Home
+      </v-tab>
+      <v-tab href="#ueber-team">
+        Über unser Team
+      </v-tab>
+      <v-tab href="#ueber-projekt">
+        Über das Projekt
+      </v-tab>
+      <v-tab href="#next-steps">
+        Next Steps
+      </v-tab>
+      <v-tabs-slider color="red"></v-tabs-slider>
+    </v-tabs>
   </v-app-bar>
 </template>
 
@@ -17,28 +31,7 @@
 export default {
   data() {
     return {
-      items: [
-        {
-          text: 'Home',
-          disabled: false,
-          //   href: '',
-        },
-        {
-          text: 'Über unser Team',
-          disabled: false,
-          //   href: '',
-        },
-        {
-          text: 'Über das Projekt',
-          disabled: false,
-          //   href: '',
-        },
-        {
-          text: 'Next Steps',
-          disabled: false,
-          //   href: '',
-        },
-      ],
+      tabs: null,
     };
   },
 };
