@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app color="black" height="200">
+  <v-app-bar app color="white" height="200">
     <v-app-bar-title>
       <v-img
         src="../assets/a-team-test-logo.jpg"
@@ -9,8 +9,8 @@
       ></v-img>
     </v-app-bar-title>
 
-    <v-tabs v-model="tabs" align-with-title>
-      <v-tab href="#home">
+    <v-tabs v-model="tabs" align-with-title color="red">
+      <v-tab href="#home" >
         Home
       </v-tab>
       <v-tab href="#ueber-team">
