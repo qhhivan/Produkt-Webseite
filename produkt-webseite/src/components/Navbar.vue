@@ -10,17 +10,17 @@
     </v-app-bar-title>
 
     <v-tabs v-model="tabs" align-with-title color="red">
-      <v-tab href="#home" >
+      <v-tab href="#home">
         Home
-      </v-tab>
-      <v-tab href="#ueber-team">
-        Über unser Team
       </v-tab>
       <v-tab href="#ueber-projekt">
         Über das Projekt
       </v-tab>
       <v-tab href="#next-steps">
         Next Steps
+      </v-tab>
+      <v-tab href="#ueber-team">
+        Team
       </v-tab>
       <v-tabs-slider color="red"></v-tabs-slider>
     </v-tabs>

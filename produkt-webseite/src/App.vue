@@ -9,6 +9,8 @@
       <Timeline />
       <AboutUs />
     </v-main>
+
+    <Footer />
   </v-app>
 </template>
 
@@ -18,6 +20,7 @@ import Navbar from '@/components/Navbar.vue';
 import AboutUs from '@/components/AboutUs.vue';
 import AboutProject from '@/components/AboutProject.vue';
 import Timeline from '@/components/Timeline.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   name: 'App',
@@ -31,6 +34,7 @@ export default {
     AboutUs,
     AboutProject,
     Timeline,
+    Footer,
   },
 };
 </script>
