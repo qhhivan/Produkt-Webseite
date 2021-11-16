@@ -2,11 +2,11 @@
   <v-container>
     <!-- VLT Background leicht ändern -->
 
-    <h1>Über unser Projekt</h1>
+    <h1 text-decoration="underline">ÜBER UNSER PROJEKT</h1>
 
     <!-- Row 1 -->
     <v-row class="my-3">
-      <v-col cols="3" >
+      <v-col cols="3">
         <v-img
           src="../assets/team-builder-test.jpg"
           max-height="200"
